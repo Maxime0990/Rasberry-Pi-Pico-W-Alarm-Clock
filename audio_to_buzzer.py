@@ -21,7 +21,7 @@ def audio_to_buzzer(input_WAV_file, output_file):
     print(f"Audio conversion complete: {len(chunks)} audio chunks, {buzzer_cutoff} dBS cutoff")
 
 
-# Megalovania first 8 seconds
+# File locations
 WAV_file_path = "C:/Users/maxim/Desktop/Pico/alarmClock/Megalovania short WAV.wav"
 output_python_file = "C:/Users/maxim/Desktop/Pico/alarmClock/buzzer_melody.txt"
 
